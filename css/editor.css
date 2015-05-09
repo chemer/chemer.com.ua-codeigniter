@@ -1,0 +1,130 @@
+.editor_toolbar{
+    display: inline-block;
+    width:auto; /* устатавливается в editor.setToolbarCSS() */
+    padding: 2px 0 2px 0;
+    background-color:#eeeeee;
+    border:1px #999999 solid;
+    color: #000000;
+    font-family: Arial!important;
+    font-size: 12px!important;
+}
+.editor_toolbar img{
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin: 0 3px 0 3px;
+    cursor:pointer;
+}
+.editor_active{
+    background-color: #bbbbbb;
+}
+
+/***********************************/
+
+.foreColor_box, .fontSize_box, .fontName_box{
+    position: relative;
+    display: block;
+    float: left;
+    margin-left: 2px;
+}
+
+.foreColor_overhead, .fontSize_overhead, .fontName_overhead{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    margin: 0!important;
+}
+.foreColor_overhead{
+    width: 42px!important;
+}
+.fontSize_overhead{
+    width: 38px!important;
+}
+.fontName_overhead{
+    width: 74px!important;
+}
+
+.foreColor_title, .fontSize_title, .fontName_title{
+    position: relative;
+    display: block;
+    line-height: 16px;
+    cursor: default;
+    height: 16px;
+    padding: 0 2px 0 2px;
+    border-right: 1px #999999 ridge;
+}
+.foreColor_title{
+    width: 40px;
+}
+.fontSize_title{
+    width: 34px;
+}
+.fontSize_title_int{
+    display: inline;
+}
+.fontName_title{
+    width: 70px;
+    overflow: hidden;
+}
+
+.foreColor_dropbox, .fontSize_dropbox, .fontName_dropbox{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 19px;
+    border: 1px #999999 solid;
+    background-color:#eeeeee;
+}
+.foreColor_dropbox{
+    width: 80px;
+}
+.fontSize_dropbox{
+    width: 34px;
+    padding: 0 2px 0 2px;
+}
+.fontName_dropbox{
+    width: 119px;
+    font-size: 14px!important;
+    padding: 0 2px 0 2px;
+}
+
+.fontSize_dropbox_item, .fontName_dropbox_item{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 20px;
+    cursor: pointer;
+}
+
+.foreColor_title_color{
+    display: none;
+    float: right;
+    height: 14px;
+    width: 3px;
+    margin-left: 3px;
+    border:1px #999999 solid;
+}
+
+.foreColor{
+    display: block;
+    float: left;
+    width: 12px!important;
+    height: 12px!important;
+    padding: 0!important;
+    margin: 1px!important;
+    border: 1px #999999 solid;
+    cursor: pointer;
+}
+
+.fontSize, .fontName{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%!important;
+    height: 100%!important;
+    padding: 0!important;
+    margin: 0!important;
+    cursor: pointer;
+}

@@ -1,0 +1,61 @@
+#portfolio {
+    display: inline-block;
+    width: 100%;
+}
+.gallery {
+    position: relative;
+    width: 809px;
+    height: 420px;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    border: 1px #717171 solid;
+    border-radius: 10px;
+    background: url('/images/galleryBG.jpg') repeat-x #f6f8f7;
+    overflow: hidden;
+}
+.gallery_item {
+    position: absolute;
+    display: inline-block;
+}
+.roll_box {
+    position: absolute; z-index: 100;
+    bottom: 10px;
+    left: 10px;
+}
+.roll {
+    padding: 1px;
+    margin: 5px;
+    border-radius:5px 5px;
+    box-shadow:0 1px 2px 1px #999999;
+}
+.roll:hover {
+    background: #cccccc;
+}
+.roll:active {
+    background: none;
+}
+.gallery_item_title{
+    display:block;
+    height:30px;
+    width:380px;
+    line-height:30px;
+    text-align: center;
+    text-decoration:none;
+    color:#062c53;
+}
+.gallery_item_title:hover{
+    font-weight:bold;
+}
+.gallery_item_image {
+    max-width: 380px;
+    max-height: 300px;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px 1px #999999;
+}
+.gallery_item_description{
+    font-size: 16px;
+    height:80px;
+    width:380px;
+    margin:5px;
+    overflow:auto;
+}

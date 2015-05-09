@@ -1,0 +1,117 @@
+html {
+    height: 100%;
+    width: 100%;
+    background: #222222;
+}
+body {
+    width: 800px;
+    height: auto;
+    padding: 10px;
+    margin: 40px auto 0 auto;
+    font-family: Tahoma;
+    background: url('/images/bg_1.gif');
+    border: 1px #000000 solid;
+    color: #000000;
+    border-radius: 8px;
+}
+#menu_box {
+    background: #a7645a;
+    width: 100%;
+    height: 36px;
+    line-height: 36px; 
+}
+#menu_box > a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #eeeeee;
+    font-size: 14px;
+}
+#menu_box > a:hover {
+    text-decoration: underline;
+}
+#page_title {
+    background: #4a4a4a;
+    color: #ff9900;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+    text-shadow: 1px 1px #000000;
+    border-bottom: 1px #cccccc groove;
+}
+.form_box {
+    background: #eaf5f9;
+    border: 1px solid #cccccc;
+    width: 700px;
+    margin: 15px auto 15px auto;
+    padding: 5px 0 10px 0;
+}
+.input_box {
+    padding: 5px 15px 5px 15px;
+}
+.input_title {
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #1e5a7d;
+    width: 350px;
+    border-left: 3px #E13300 solid;
+}
+input {
+    width: 210px;
+    font-size: 13px;
+}
+.send {
+    display: block;
+    margin: 0 auto 5px auto;
+    background: url('/images/button_bg.png') repeat-x;
+    color: #eeeeee;
+    padding: 3px 10px 3px 10px;
+    cursor: pointer;
+}
+.send:hover {
+    color: #ffffff;
+}
+.notice {
+    padding: 5px 10px 5px 10px;
+    margin: 10px auto 15px auto;
+    background: #faf6d6;
+    border: 1px solid #c8b87d;
+    color: #333333;
+    font-size: 14px;
+}
+.note {
+    background: #eeeeee;
+    padding: 10px;
+    color: #333333;
+    font-size: 13px;
+    border: 1px #cccccc solid;
+}
+.valid_errors {
+    padding: 5px 10px 5px 10px;
+    font-size: 13px;
+    color: red;
+}
+#captcha {
+    margin-top: 5px;
+    text-align: center;
+}
+#success_title {
+    color: #009900;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px;
+}
+#success_text {
+    background: #eeeeee;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px #cccccc solid;
+}
+#success_thanks {
+    color: #003399;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px;
+}
